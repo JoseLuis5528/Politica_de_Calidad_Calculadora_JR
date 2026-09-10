@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Política de Calidad | Calculadora JR</title>
+    <title>Política de Privacidad y Calidad | Calculadora JR</title>
     <style>
         body {
             font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
@@ -13,7 +13,7 @@
             margin: 0 auto;
             padding: 20px;
             background-color: #f9f9f9;
-            text-align: justify; /* Corregido: antes decía jusify */
+            text-align: justify;
         }
         .container {
             background: #fff;
@@ -24,13 +24,22 @@
         }
         header {
             text-align: center;
-            margin-bottom: 40px;
+            margin-bottom: 30px;
         }
-        h1 { color: #2c3e50; margin-bottom: 5px; }
+        .logo {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+            margin-bottom: 15px;
+            border-radius: 20px;
+        }
+        h1 { color: #2c3e50; margin-bottom: 5px; font-size: 24px; text-transform: uppercase; }
+        .privacy-label { background-color: #e8f4fd; color: #1967d2; padding: 10px 15px; border-radius: 5px; font-weight: bold; font-size: 18px; margin-bottom: 15px; display: inline-block; border: 1px solid #d2e3fc; }
         .meta { color: #7f8c8d; font-size: 0.9em; margin-bottom: 20px; }
-        h2 { color: #2980b9; border-bottom: 1px solid #eee; padding-bottom: 10px; margin-top: 30px; }
+        h2 { color: #2980b9; border-bottom: 1px solid #eee; padding-bottom: 10px; margin-top: 30px; font-size: 16px; }
         ul { padding-left: 20px; }
-        li { margin-bottom: 10px; text-align: justify; /* Corregido: antes decía jusify */ }
+        li { margin-bottom: 10px; text-align: justify; }
+        p { margin-bottom: 15px; }
         .footer-info {
             margin-top: 50px;
             padding-top: 20px;
@@ -45,19 +54,36 @@
 
 <div class="container">
     <header>
-        <h1>POLÍTICA DE CALIDAD Y TÉRMINOS – CALCULADORA JR</h1>
+        <!-- Logo de la aplicación (Asegúrate de subir tu imagen como 'logo.png' al repositorio) -->
+      
+        <img src="https://lh3.googleusercontent.com/d/1cotEx2iLWFyihJ0kmvyn-PaAjaIfOkaD" alt="Logo" style="width: 80px; height: auto; display: block; margin: auto;  pointer-events: none; " ondragstart="return false; ">
+        
+        <!-- Etiqueta obligatoria solicitada por Google Play -->
+        <div>
+            <span class="privacy-label">Privacy Policy / Política de Privacidad</span>
+        </div>
+        
+        <h1>POLÍTICA DE PRIVACIDAD, CALIDAD Y TÉRMINOS – CALCULADORA JR</h1>
         <div class="meta">
-            <p>Versión: V15.0 | Desarrollado por: Jose Luis Rodriguez</p>
+            <p>Versión: V14.0 | Desarrollado por: Jose Luis Rodriguez</p>
         </div>
     </header>
 
-    <h2>OBJETIVO</h2>
+    <h2>1. POLÍTICA DE PRIVACIDAD Y DATOS DE USUARIO</h2>
+    <p>En cumplimiento con las políticas de Google Play sobre Privacidad y Datos de Usuario, esta sección describe cómo se recopila, utiliza y protege la información en la aplicación <strong>Calculadora JR</strong>:</p>
+    <ul>
+        <li><strong>Recopilación de Datos Personales:</strong> La aplicación no recopila, almacena, comparte ni solicita ningún tipo de información personal identificable de los usuarios (como nombres, correos electrónicos, números telefónicos o ubicaciones geográficas).</li>
+        <li><strong>Almacenamiento Local:</strong> Los historiales de operaciones y preferencias de temas se almacenan de manera local y exclusiva en la memoria interna del dispositivo del usuario, sin ser transmitidos a servidores externos por parte del desarrollador.</li>
+        <li><strong>Conectividad y APIs Externas:</strong> Para el módulo de conversión de monedas, la aplicación realiza solicitudes a APIs de terceros orientadas exclusivamente a la obtención de tasas de cambio públicas. Ningún dato privado del usuario es compartido en estos procesos.</li>
+    </ul>
+
+    <h2>2. OBJETIVO</h2>
     <p>Garantizar que la aplicación Calculadora JR proporcione resultados matemáticos precisos, rápidos y confiables, ofreciendo una experiencia de usuario moderna, segura y accesible bajo los parámetros técnicos establecidos.</p>
 
-    <h2>ALCANCE</h2>
+    <h2>3. ALCANCE</h2>
     <p>Esta política aplica al desarrollo, mantenimiento y mejora continua de la aplicación móvil Calculadora JR, incluyendo sus módulos de calculadora básica, científica, historial de operaciones, conversor de monedas, selector de temas y módulos de procesos o ingeniería.</p>
 
-    <h2>COMPROMISO DE CALIDAD Y TÉRMINOS DE USO</h2>
+    <h2>4. COMPROMISO DE CALIDAD Y TÉRMINOS DE USO</h2>
     <ul>
         <li><strong>1) Precisión en Cálculos:</strong> Cumplir con estándares lógicos en las operaciones matemáticas programadas en el código base.</li>
         <li><strong>2) Interfaz Adaptable:</strong> Mantener un diseño intuitivo compatible con diferentes dispositivos.</li>
@@ -65,17 +91,17 @@
         <li><strong>4) Mejora Continua:</strong> Implementar actualizaciones basadas en rendimiento y optimización del software.</li>
         <li><strong>5) Operación Híbrida y Tasas de Cambio:</strong> La aplicación prioriza la autonomía operativa local. Para variables externas (como conversión de moneda), el software incorpora conectividad a una API oficial. El desarrollador únicamente es responsable de implementar el mecanismo técnico de consumo y caché local; la precisión de las tasas de cambio o fluctuaciones monetarias son responsabilidad absoluta de la fuente externa o del criterio del usuario.</li>
         <li><strong>6) Módulo de Balance de Línea y Funciones Experimentales:</strong> Las funciones analíticas o de prueba se ofrecen como herramientas de asistencia tecnológica. Corresponde única y exclusivamente al usuario verificar y contrastar los resultados obtenidos frente a sus registros internos.</li>
-        <li><strong>7) Exención Total de Responsabilidad:</strong> El uso de la aplicación y la interpretación de sus resultados en <strong>todos los módulos</strong> se realiza bajo la absoluta y exclusiva responsabilidad del usuario. El desarrollador (Jose Luis Rodriguez) queda totalmente exento de cualquier responsabilidad civil, financiera, operativa o legal ante decisiones, criterios o acciones que el usuario tome basándose en la herramienta.</li>
+        <li><strong>7) Exención Total de Responsabilidad:</strong> El uso de la aplicación y la interpretación de sus resultados en todos los módulos se realiza bajo la absoluta y exclusiva responsabilidad del usuario. El desarrollador (Jose Luis Rodriguez) queda totalmente exento de cualquier responsabilidad civil, financiera, operativa o legal ante decisiones, criterios o acciones que el usuario tome basándose en la herramienta.</li>
     </ul>
 
-    <h2>RESPONSABILIDADES</h2>
+    <h2>5. RESPONSABILIDADES</h2>
     <p>El equipo de desarrollo es responsable de asegurar la calidad del código fuente y la funcionalidad general de la aplicación. El usuario asume la total responsabilidad sobre el uso práctico de los datos arrojados por el sistema.</p>
 
-    <h2>MEJORA CONTINUA</h2>
+    <h2>6. MEJORA CONTINUA</h2>
     <p>La aplicación será evaluada periódicamente mediante pruebas de rendimiento para garantizar la evolución constante del producto.</p>
 
-    <h2>DECLARACIÓN FINAL</h2>
-    <p>La Calculadora JR refleja nuestro compromiso con la excelencia tecnológica, manteniendo altos estándares de calidad y transparencia en cada versión publicada.</p>
+    <h2>7. DECLARACIÓN FINAL</h2>
+    <p>La Calculadora JR refleja nuestro compromiso con la excelencia tecnológica, manteniendo altos estándares de calidad, seguridad y transparencia en cada versión publicada.</p>
   
     <div class="footer-info">
         <p>&copy; 2026 - Software Development Engineering Team GDL</p>
